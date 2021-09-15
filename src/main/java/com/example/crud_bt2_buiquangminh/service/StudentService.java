@@ -7,6 +7,6 @@ import java.util.List;
 public interface StudentService {
     void saveStudent(Student s);
     List<Student> findAll();
-    Student findById(long id);
+    static Student findById(long id);
     void deleteById(Long id);
 }
